@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Аккаунт - для кого</title>
+
+  <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body class="do-css-hover">
+
+  <!-- classes: style-home -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header-wrapper">
+        <a class="header-logo" href="./index.html">
+          <img src="./assets/images/logo-header.svg" alt="">
+        </a>
+        <nav class="header-menu">
+          <ul>
+            <li><a href="./account-deals.html">Аккаунт</a></li>
+            <li><a href="./page-howitwork.html">Как это работает</a></li>
+            <li><a href="./page-forwhom.html">Для кого</a></li>
+            <li><a href="./page-certificates.html">Сертификаты</a></li>
+            <li><a href="./page-reviews.html">Отзывы</a></li>
+            <li><a href="./page-clients.html">Наши клиенты</a></li>
+          </ul>
+        </nav>
+        <div class="header-accountControl">
+          <div class="item">
+            <a href="#" data-open_popup="loginIn" class="text-bold">Войти</a>
+          </div>
+          <div class="item">
+            <a href="#" data-open_popup="signUp" class="color-blue text-bold">Зарегистрироваться</a>
+          </div>
+        </div>
+        <button type="button" class="header-burger">
+          <span class="img"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="pageCover">
+      <div class="container">
+        <div class="pageCover-wrapper">
+          <div class="pageCover-image">
+            <div class="img-wrapper">
+              <span class="img" style="background-image: url('./assets/images/forwhom-diamond.png');"></span>
+            </div>
+          </div>
+          <h1 class="pageCover-title">
+            Для кого
+          </h1>
+          <p class="pageCover-description">
+            Nazva – сервис для приема платежей и защиты онлайн сделок услуг. Для физических и юридических лиц.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="factsMini">
+      <div class="container">
+        <!-- <h2></h2> -->
+        <!-- <p class="factsMini-description"></p> -->
+        <div class="factsMini-box">
+
+          <div class="factsMini-item">
+            <div class="icon">
+              <svg class="svg-dollar" width="11" height="18" viewBox="0 0 11 18" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.50031 14.1C3.44031 14.1 2.63031 13.18 2.52031 12H0.320312C0.440312 14.19 2.08031 15.42 4.00031 15.83V18H7.00031V15.85C8.95031 15.48 10.5003 14.35 10.5003 12.3C10.5003 9.46 8.07031 8.49 5.80031 7.9C3.53031 7.31 2.80031 6.7 2.80031 5.75C2.80031 4.66 3.81031 3.9 5.50031 3.9C7.28031 3.9 7.94031 4.75 8.00031 6H10.2103C10.1403 4.28 9.09031 2.7 7.00031 2.19V0H4.00031V2.16C2.06031 2.58 0.500312 3.84 0.500312 5.77C0.500312 8.08 2.41031 9.23 5.20031 9.9C7.70031 10.5 8.20031 11.38 8.20031 12.31C8.20031 13 7.71031 14.1 5.50031 14.1Z"/>
+              </svg>
+            </div>
+            <p class="text">
+              Продажа услуг по 100% предоплате
+            </p>
+          </div>
+
+          <div class="factsMini-item">
+            <div class="icon">
+              <svg class="svg-flag" width="16" height="17" viewBox="0 0 16 17" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.94757 2L8.33959 4H13.4751V10H10.1821L9.79007 8H2.69448V2H7.94757ZM9.55485 0H0.734375V17H2.69448V10H8.18278L8.5748 12H15.4352V2H9.94687L9.55485 0Z"/>
+              </svg>
+            </div>
+            <p class="text">
+              Гарантия оплаты при выполнении обязательств
+            </p>
+          </div>
+
+          <div class="factsMini-item">
+            <div class="icon">
+              <svg class="svg-protected" width="13" height="16" viewBox="0 0 13 16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.50776 0.666748L0.627441 3.33341V7.33341C0.627441 11.0334 3.13638 14.4934 6.50776 15.3334C9.87914 14.4934 12.3881 11.0334 12.3881 7.33341V3.33341L6.50776 0.666748ZM6.50776 7.99341H11.0813C10.7351 10.7401 8.93829 13.1867 6.50776 13.9534V8.00008H1.93418V4.20008L6.50776 2.12675V7.99341Z"/>
+              </svg>
+            </div>
+            <p class="text">
+              Защита от подлога и мошенничества
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="structuredInfo">
+      <div class="container">
+        <div class="structuredInfo-wrapper">
+          <h2>
+            Этапы сделки
+          </h2>
+          <p class="structuredInfo-description">
+            Все защищенные сделки имеют определенные статусы в зависимости от этапа. Статусы управляются пользователями или сервисом, согласно заданных условий.
+          </p>
+          <div class="structuredInfo-box">
+  
+            <div class="structuredInfo-item">
+              <div class="hat">
+                <div class="icon">
+                  <img src="./assets/images/cross.png" alt="">
+                </div>
+                <h3 class="title">
+                  Преимущества сервиса
+                </h3>
+              </div>
+              <div class="content">
+                <ul>
+                  <li>
+                    Контроль ведения сделки
+                  </li>
+                  <li>
+                    Выгоднее и надежнее
+                  </li>
+                  <li>
+                    Профессиональная команда по урегулированию споров
+                  </li>
+                  <li>
+                    Прозрачные условия, автоматический расчет комиссии
+                  </li>
+                </ul>
+              </div>
+            </div>
+  
+            <div class="structuredInfo-item">
+              <div class="hat">
+                <div class="icon">
+                  <img src="./assets/images/cross.png" alt="">
+                </div>
+                <h3 class="title">
+                  Кому полезен nazna
+                </h3>
+              </div>
+              <div class="content">
+                <ul>
+                  <li>
+                    Виртуальные услуги - nazva защитит ваши интересы при продаже услуг, когда вы не можете заранее подтвердить качество исполнителя и не готовы рисковать, отдавая услуги без предоплаты.
+                  </li>
+                  <li>
+                    При продаже дорогой услуги nazva необходим, так как предоплата и проверка подлинности товара, неотъемлемые условия, которые позволяют провести сделку для обеих сторон без рисков.
+                  </li>
+                  <li>
+                    Nazva позволит Заказчикам безопасно произвести предоплату онлайн, а вам получить гарантию, что Заказчик заплатит после выполнения вами всех обязательств.
+                  </li>
+                  <li>
+                    Оказание услуг, в том числе удаленно - nazva упрощает удаленную работу, так как защищает стороны от риска неисполнения обязательств: Заказчик получает гарантию, что работа будет сделана, Исполнитель – оплату оказанных услуг. nazva обеспечит выполнение условий сделки.
+                  </li>
+                </ul>
+              </div>
+            </div>
+  
+            <div class="structuredInfo-item">
+              <div class="hat">
+                <div class="icon">
+                  <img src="./assets/images/cross.png" alt="">
+                </div>
+                <h3 class="title">
+                  Предупрежден - значит вооружен
+                </h3>
+              </div>
+              <div class="content">
+                <ul>
+                  <li>
+                    В последнее время набирает оборот очень хитрый способ мошенничества. Мошенник-Заказчик готов вам оплатить полную цену услуги. Вы предоставляете ему кошелек для оплаты, а вместо оплаты вам приходит счет, по которому вы должны оплатить довольно немалую комиссию. Это мошенничество! Ни одна платежная система не требует оплаты комиссии от человека, принимающего денежные средства. Если вы подтвердите оплату, вы просто переведете деньги лжезаказчику, который после их получения просто пропадет из сети.
+                  </li>
+                  <li>
+                    Кардинг - если у Вас запрашивают CVV код карты и срок её действия - получив эти данные мошенник может снять с карты все деньги. Могут предоставить фейковый скриншот страницы оплаты.
+                  </li>
+                  <li>
+                    Если вам пишет человек со страницы-однодневки (допустим, 20 друзей, 1 фото, нет старых записей на стене в vk.com), то это скорее всего мошенник, но в любом случае мошенник НИКОГДА не согласится на гаранта. То же самое относится и к скайпу. В скайпе можно регистрироваться хоть 100 раз в день, поэтому после совершения сделки вы можете просто не найти этого человека при появлении каких-либо проблем.
+                  </li>
+                  <li>
+                    Будьте бдительны, не попадитесь на уловки мошенников
+                  </li>
+                </ul>
+              </div>
+            </div>
+  
+            <div class="structuredInfo-item">
+              <div class="hat">
+                <div class="icon">
+                  <img src="./assets/images/cross.png" alt="">
+                </div>
+                <h3 class="title">
+                  Перевод средств с сайта
+                </h3>
+              </div>
+              <div class="content">
+                <p>
+                  Перевод средств с сайта производится в течении 24 часов, с 3% комиссией при переводе на Банковскую карту. Перевод на платежные системы Qiwi Wallet, Yandex Money, Webmoney, PayPal осуществляются с комиссией 1.5%
+                </p>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="notice">
+      <div class="container">
+        <div class="alert alert-red with-bg">
+          <p>
+            В случае выполнения обязательств перед Заказчиком денежные средства перейдут на ваш счет, при ненадлежащем исполнении условий сделки — возвращены Заказчику. Помните! Никогда не проверяйте человека на честность самостоятельно, так как риск потерять ваш товар очень и очень велик! Используйте гарант сервис nazva. Помните, мошенник никогда, не при каких условиях не согласится на безопасную сделку, на гарант сервис.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <a class="footer-logo" href="./index.html">
+          <img src="./assets/images/logo-footer.svg" alt="">
+        </a>
+        <nav class="footer-navigation">
+          <ul>
+            <li><a href="./account-deals.html">Аккаунт</a></li>
+            <li><a href="./page-howitwork.html">Как это работает</a></li>
+            <li><a href="./page-forwhom.html">Для кого</a></li>
+            <li><a href="./page-certificates.html">Сертификаты</a></li>
+            <li><a href="./page-reviews.html">Отзывы</a></li>
+            <li><a href="./page-clients.html">Наши клиенты</a></li>
+          </ul>
+        </nav>
+        <div class="footer-paymentMethods">
+          <div class="item">
+            <img src="./assets/images/webmoney-white.svg" alt="">
+          </div>
+          <div class="item">
+            <img src="./assets/images/pci-dss-white.svg" alt="">
+          </div>
+          <div class="item">
+            <img src="./assets/images/ssl-white.svg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="text-small">©2020-2022 Гарант сервис</p>
+        <a href="./page-agreement.html" class="text-small">Пользовательское соглашение</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="popup" id="loginIn">
+    <div class="popup-wrapper">
+      <div class="popup-bg popup-close"></div>
+      <div class="popup-inner">
+        <div class="login-hat">
+          <p class="login-title">Войти</p>
+          <span class="popup-x popup-close">
+            <span class="img" style="background-image: url('./assets/images/x-gray.svg');"></span>
+          </span>
+        </div>
+        <form action="#" method="post" class="loginIn-form accountForm">
+          <label class="label error">
+            <span class="label-wrapper">
+              <input type="text" placeholder="Логин">
+            </span>
+            <span class="label-error">
+              Неверный логин
+            </span>
+          </label>
+          <label class="label">
+            <span class="label-wrapper">
+              <input type="password" placeholder="Пароль">
+              <span class="input-control">
+                <span class="hide"><img src="./assets/images/eye-hide.svg" alt=""></span>
+                <span class="default"><img src="./assets/images/eye.svg" alt=""></span>
+              </span>
+            </span>
+            <span class="label-error">
+              Неправильный пароль
+            </span>
+          </label>
+          <button type="button" class="button">
+            вОЙТИ
+          </button>
+          <div class="accountForm-bottom">
+            <p>Нет учетной записи?</p>
+            <a href="#" data-open_popup="signUp">Зарегистрировать</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="popup" id="signUp">
+    <div class="popup-wrapper">
+      <div class="popup-bg popup-close"></div>
+      <div class="popup-inner">
+        <div class="login-hat">
+          <p class="login-title">Регистрация</p>
+          <span class="popup-x popup-close">
+            <span class="img" style="background-image: url('./assets/images/x-gray.svg');"></span>
+          </span>
+        </div>
+        <form action="#" method="post" class="signUp-form accountForm">
+          <label class="label">
+            <span class="label-wrapper">
+              <input type="text" placeholder="Логин">
+            </span>
+            <span class="label-error">
+              Имеются ошибки в поле
+            </span>
+          </label>
+          <label class="label">
+            <span class="label-wrapper">
+              <input type="email" placeholder="Email">
+            </span>
+            <span class="label-error">
+              Имеются ошибки в поле
+            </span>
+          </label>
+          <label class="label">
+            <span class="label-wrapper">
+              <input type="password" placeholder="Пароль">
+              <span class="input-control">
+                <span class="hide"><img src="./assets/images/eye-hide.svg" alt=""></span>
+                <span class="default"><img src="./assets/images/eye.svg" alt=""></span>
+              </span>
+            </span>
+            <span class="label-error">
+              Пароль слишком прост
+            </span>
+          </label>
+          <label class="label">
+            <span class="label-wrapper">
+              <input type="password" placeholder="Подтвердите пароль">
+              <span class="input-control">
+                <span class="hide"><img src="./assets/images/eye-hide.svg" alt=""></span>
+                <span class="default"><img src="./assets/images/eye.svg" alt=""></span>
+              </span>
+            </span>
+            <span class="label-error">
+              Пароли не совпадают
+            </span>
+          </label>
+          <button type="button" class="button" data-open_popup="signUp">
+            Создать аккаунт
+          </button>
+          <label class="label-check-mark">
+            <input type="checkbox" name="confirm" checked>
+            <span class="check-mark">
+              <span class="img" style="background-image: url('./assets/images/check-mark.svg');"></span>
+            </span>
+            <span>Я ознакомлен c "<a href="./page-agreement.html">Пользовательским соглашением</a>"</span>
+          </label>
+          <div class="accountForm-bottom">
+            <p>Уже есть аккаунт?</p>
+            <a href="#" data-open_popup="loginIn">Войти</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="./assets/js/jquery-3.6.1.min.js"></script>
+  <script src="./assets/swiper/swiper-bundle.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

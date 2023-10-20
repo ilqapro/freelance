@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Аккаунт - пополнение счета</title>
+
+  <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body class="do-css-hover accountPage">
+
+  <!-- classes: style-home -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header-wrapper">
+        <a class="header-logo" href="index.html">
+          <img src="./assets/images/logo-header.svg" alt="">
+        </a>
+        <nav class="header-menu">
+          <ul>
+            <li><a href="./account-deals.html">Мои сделки</a></li>
+            <li><a href="./account-blocked.html">Блокировка</a></li>
+            <li><a href="./account-deal-info.html">Инфа сделки</a></li>
+            <li><a href="./account-deal-new.html">Новая сделка</a></li>
+            <li><a href="./account-payment-refill.html">Пополнение счета</a></li>
+          </ul>
+        </nav>
+        <div class="header-accountControl">
+          <div class="item">
+            <a href="./account-deals.html" class="text-bold">Мои сделки</a>
+          </div>
+          <div class="item">
+            <a href="./account-payments.html" class="text-bold">Мой счет</a>
+            <p class="header-accountControl-userMoney">
+              20 000.00₽
+            </p>
+          </div>
+          <div class="item">
+            <button class="header-accountControl-userMenu color-blue" type="button">
+              <svg class="svg-user" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 8C10.21 8 12 6.21 12 4C12 1.79 10.21 0 8 0C5.79 0 4 1.79 4 4C4 6.21 5.79 8 8 8ZM8 10C5.33 10 0 11.34 0 14V16H16V14C16 11.34 10.67 10 8 10Z"/>
+              </svg>
+              <span class="user-name text-bold">Fafnirov2</span>
+              <img src="./assets/images/arrow-list.svg" alt="">
+              <ul class="sub-menu">
+                <li><a href="./account-settings.html">Настройки</a></li>
+                <li><a href="">Выйти</a></li>
+              </ul>
+            </button>
+          </div>
+        </div>
+        <button type="button" class="header-burger">
+          <span class="img"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="container">
+      <div class="account-page-hat">
+        <a href="" class="back">
+          <img src="./assets/images/arrow-back.svg" alt="">
+          Назад
+        </a>
+      </div>
+  
+      <div class="blockStyle paymentRefill-blockStyle">
+        <div class="blockStyle-hat">
+          <p class="blockStyle-title">
+            Пополнение счета Monero (XMR)
+          </p>
+        </div>
+        <div class="blockStyle-content">
+          Отправка средств происходит в РУЧНОМ режиме. Для осуществления отправки - Вам необходимо сделать следующие действия описанные ниже, после чего обратится в чат поддержки:
+          <br>ВАЖНО: курс по заявке будет зафиксирован на 1 час! Если в течение этого времени не получено ни одно подтверждение от сети Monero, тогда курс зафиксируется в момент получения 1-го подтверждения, обмен выполнен после поступления средств на наш кошелек Monero.
+          <br>
+          <br>Шаг 1. Перейдите на один из предоставленых обменников:
+          <ul>
+            <li>Муха</li>
+            <li>60сек</li>
+            <li>TipTopObmen</li>
+            <li>BTCWorm</li>
+            <li>Top-Exchange</li>
+          </ul>
+          <br>Шаг 2. Переведите сумму пополнения на кошелек: <span>473vscBxk8iYvr1ykCuEHHHfM2ogWsu8PfEdGhjXshsdMundwC4caitBS93McNfSDJJJxGzY27qzsM87diXPVh6sSVjRaJD</span>
+          <br>Шаг 3. Предоставьте чек об оплате в поддержку.
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <a class="footer-logo" href="./index.html">
+          <img src="./assets/images/logo-footer.svg" alt="">
+        </a>
+        <nav class="footer-navigation">
+          <ul>
+            <li><a href="./account-deals.html">Аккаунт</a></li>
+            <li><a href="./page-howitwork.html">Как это работает</a></li>
+            <li><a href="./page-forwhom.html">Для кого</a></li>
+            <li><a href="./page-certificates.html">Сертификаты</a></li>
+            <li><a href="./page-reviews.html">Отзывы</a></li>
+            <li><a href="./page-clients.html">Наши клиенты</a></li>
+          </ul>
+        </nav>
+        <div class="footer-paymentMethods">
+          <div class="item">
+            <img src="./assets/images/webmoney-white.svg" alt="">
+          </div>
+          <div class="item">
+            <img src="./assets/images/pci-dss-white.svg" alt="">
+          </div>
+          <div class="item">
+            <img src="./assets/images/ssl-white.svg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="text-small">©2020-2022 Гарант сервис</p>
+        <a href="./page-agreement.html" class="text-small">Пользовательское соглашение</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="popup" id="loginIn">
+    <div class="popup-wrapper">
+      <div class="popup-bg popup-close"></div>
+      <div class="popup-inner">
+        <div class="login-hat">
+          <p class="login-title">Войти</p>
+          <span class="popup-x popup-close">
+            <span class="img" style="background-image: url('./assets/images/x-gray.svg');"></span>
+          </span>
+        </div>
+        <form action="#" method="post" class="loginIn-form accountForm">
+          <label class="label error">
+            <span class="label-wrapper">
+              <input type="text" placeholder="Логин">
+            </span>
+            <span class="label-error">
+              Неверный логин
+            </span>
+          </label>
+          <label class="label">
+            <span class="label-wrapper">
+              <input type="password" placeholder="Пароль">
+              <span class="input-control">
+                <span class="hide"><img src="./assets/images/eye-hide.svg" alt=""></span>
+                <span class="default"><img src="./assets/images/eye.svg" alt=""></span>
+              </span>
+            </span>
+            <span class="label-error">
+              Неправильный пароль
+            </span>
+          </label>
+          <button type="button" class="button">
+            вОЙТИ
+          </button>
+          <div class="accountForm-bottom">
+            <p>Нет учетной записи?</p>
+            <a href="#" data-open_popup="signUp">Зарегистрировать</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="popup" id="signUp">
+    <div class="popup-wrapper">
+      <div class="popup-bg popup-close"></div>
+      <div class="popup-inner">
+        <div class="login-hat">
+          <p class="login-title">Регистрация</p>
+          <span class="popup-x popup-close">
+            <span class="img" style="background-image: url('./assets/images/x-gray.svg');"></span>
+          </span>
+        </div>
+        <form action="#" method="post" class="signUp-form accountForm">
+          <label class="label">
+            <span class="label-wrapper">
+              <input type="text" placeholder="Логин">
+            </span>
+            <span class="label-error">
+              Имеются ошибки в поле
+            </span>
+          </label>
+          <label class="label">
+            <span class="label-wrapper">
+              <input type="email" placeholder="Email">
+            </span>
+            <span class="label-error">
+              Имеются ошибки в поле
+            </span>
+          </label>
+          <label class="label">
+            <span class="label-wrapper">
+              <input type="password" placeholder="Пароль">
+              <span class="input-control">
+                <span class="hide"><img src="./assets/images/eye-hide.svg" alt=""></span>
+                <span class="default"><img src="./assets/images/eye.svg" alt=""></span>
+              </span>
+            </span>
+            <span class="label-error">
+              Пароль слишком прост
+            </span>
+          </label>
+          <label class="label">
+            <span class="label-wrapper">
+              <input type="password" placeholder="Подтвердите пароль">
+              <span class="input-control">
+                <span class="hide"><img src="./assets/images/eye-hide.svg" alt=""></span>
+                <span class="default"><img src="./assets/images/eye.svg" alt=""></span>
+              </span>
+            </span>
+            <span class="label-error">
+              Пароли не совпадают
+            </span>
+          </label>
+          <button type="button" class="button" data-open_popup="signUp">
+            Создать аккаунт
+          </button>
+          <label class="label-check-mark">
+            <input type="checkbox" name="confirm" checked>
+            <span class="check-mark">
+              <span class="img" style="background-image: url('./assets/images/check-mark.svg');"></span>
+            </span>
+            <span>Я ознакомлен c "<a href="./page-agreement.html">Пользовательским соглашением</a>"</span>
+          </label>
+          <div class="accountForm-bottom">
+            <p>Уже есть аккаунт?</p>
+            <a href="#" data-open_popup="loginIn">Войти</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="./assets/js/jquery-3.6.1.min.js"></script>
+  <script src="./assets/swiper/swiper-bundle.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

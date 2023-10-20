@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Аккаунт - информация о сделке</title>
+
+  <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body class="do-css-hover accountPage">
+
+  <!-- classes: style-home -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header-wrapper">
+        <a class="header-logo" href="index.html">
+          <img src="./assets/images/logo-header.svg" alt="">
+        </a>
+        <nav class="header-menu">
+          <ul>
+            <li><a href="./account-deals.html">Мои сделки</a></li>
+            <li><a href="./account-blocked.html">Блокировка</a></li>
+            <li><a href="./account-deal-info.html">Инфа сделки</a></li>
+            <li><a href="./account-deal-new.html">Новая сделка</a></li>
+            <li><a href="./account-payment-refill.html">Пополнение счета</a></li>
+          </ul>
+        </nav>
+        <div class="header-accountControl">
+          <div class="item">
+            <a href="./account-deals.html" class="text-bold">Мои сделки</a>
+          </div>
+          <div class="item">
+            <a href="./account-payments.html" class="text-bold">Мой счет</a>
+            <p class="header-accountControl-userMoney">
+              20 000.00₽
+            </p>
+          </div>
+          <div class="item">
+            <button class="header-accountControl-userMenu color-blue" type="button">
+              <svg class="svg-user" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 8C10.21 8 12 6.21 12 4C12 1.79 10.21 0 8 0C5.79 0 4 1.79 4 4C4 6.21 5.79 8 8 8ZM8 10C5.33 10 0 11.34 0 14V16H16V14C16 11.34 10.67 10 8 10Z"/>
+              </svg>
+              <span class="user-name text-bold">Fafnirov2</span>
+              <img src="./assets/images/arrow-list.svg" alt="">
+              <ul class="sub-menu">
+                <li><a href="./account-settings.html">Настройки</a></li>
+                <li><a href="">Выйти</a></li>
+              </ul>
+            </button>
+          </div>
+        </div>
+        <button type="button" class="header-burger">
+          <span class="img"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="container">
+      <div class="account-page-hat">
+        <a href="" class="back">
+          <img src="./assets/images/arrow-back.svg" alt="">
+          Назад
+        </a>
+        <h1 class="account-page-title">
+          Новая сделка
+        </h1>
+      </div>
+    </div>
+  
+    <div class="dealInfo-progress status-1">
+      <div class="container">
+        <div class="dealInfo-progress-wrapper">
+          <p class="dealInfo-title-mobile">
+            Cтатус сделки:
+          </p>
+          <div class="dealInfo-progress-title">
+            <div class="status-1">
+              <div class="icon">
+                <svg class="svg-finger-up" width="23" height="20" viewBox="0 0 23 20" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.12 1.06095L6.58 6.60095C6.21 6.97095 6 7.48095 6 8.01095V18.0009C6 19.1009 6.9 20.0009 8 20.0009H17C17.8 20.0009 18.52 19.5209 18.84 18.7909L22.1 11.1809C22.94 9.20094 21.49 7.00095 19.34 7.00095H13.69L14.64 2.42095C14.74 1.92095 14.59 1.41095 14.23 1.05095C13.64 0.470946 12.7 0.470946 12.12 1.06095ZM2 20.0009C3.1 20.0009 4 19.1009 4 18.0009V10.0009C4 8.90094 3.1 8.00095 2 8.00095C0.9 8.00095 0 8.90094 0 10.0009V18.0009C0 19.1009 0.9 20.0009 2 20.0009Z"/>
+                </svg>
+              </div>
+              <p class="mobile-hidden">Статус «Ожидает подтверждения»</p>
+              <p>Ожидает подтверждения</p>
+            </div>
+            <div class="status-2">
+              <div class="icon">
+                <svg class="svg-timer" width="19" height="21" viewBox="0 0 19 21" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.0001 0H8.0001C7.4501 0 7.0001 0.45 7.0001 1C7.0001 1.55 7.4501 2 8.0001 2H12.0001C12.5501 2 13.0001 1.55 13.0001 1C13.0001 0.45 12.5501 0 12.0001 0ZM10.0001 13C10.5501 13 11.0001 12.55 11.0001 12V8C11.0001 7.45 10.5501 7 10.0001 7C9.4501 7 9.0001 7.45 9.0001 8V12C9.0001 12.55 9.4501 13 10.0001 13ZM17.0301 6.39L17.7801 5.64C18.1601 5.26 18.1701 4.63 17.7801 4.24L17.7701 4.23C17.3801 3.84 16.7601 3.85 16.3701 4.23L15.6201 4.98C14.0701 3.74 12.1201 3 10.0001 3C5.2001 3 1.1201 6.96 1.0001 11.76C0.8701 16.84 4.9401 21 10.0001 21C14.9801 21 19.0001 16.97 19.0001 12C19.0001 9.88 18.2601 7.93 17.0301 6.39ZM10.0001 19C6.1301 19 3.0001 15.87 3.0001 12C3.0001 8.13 6.1301 5 10.0001 5C13.8701 5 17.0001 8.13 17.0001 12C17.0001 15.87 13.8701 19 10.0001 19Z"/>
+                </svg>
+              </div>
+              <p class="mobile-hidden">Статус «Ожидается оплата»</p>
+              <p>Ожидается оплата</p>
+            </div>
+            <div class="status-3">
+              <div class="icon">
+                <svg class="svg-card" width="20" height="16" viewBox="0 0 20 16" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M18 0.000244141H2C0.89 0.000244141 0.00999999 0.890244 0.00999999 2.00024L0 14.0002C0 15.1102 0.89 16.0002 2 16.0002H18C19.11 16.0002 20 15.1102 20 14.0002V2.00024C20 0.890244 19.11 0.000244141 18 0.000244141ZM17 14.0002H3C2.45 14.0002 2 13.5502 2 13.0002V8.00024H18V13.0002C18 13.5502 17.55 14.0002 17 14.0002ZM18 4.00024H2V3.00024C2 2.45024 2.45 2.00024 3 2.00024H17C17.55 2.00024 18 2.45024 18 3.00024V4.00024Z"/>
+                </svg>
+              </div>
+              <p class="mobile-hidden">Статус «Оплачена»</p>
+              <p>Оплачена</p>
+            </div>
+            <div class="status-4">
+              <div class="icon">
+                <svg class="svg-alert" width="20" height="18" viewBox="0 0 20 18" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2.47012 17.9999H17.5301C19.0701 17.9999 20.0301 16.3299 19.2601 14.9999L11.7301 1.98993C10.9601 0.659932 9.04012 0.659932 8.27012 1.98993L0.740121 14.9999C-0.0298788 16.3299 0.930121 17.9999 2.47012 17.9999ZM10.0001 10.9999C9.45012 10.9999 9.00012 10.5499 9.00012 9.99993V7.99993C9.00012 7.44993 9.45012 6.99993 10.0001 6.99993C10.5501 6.99993 11.0001 7.44993 11.0001 7.99993V9.99993C11.0001 10.5499 10.5501 10.9999 10.0001 10.9999ZM11.0001 14.9999H9.00012V12.9999H11.0001V14.9999Z"/>
+                </svg>
+              </div>
+              <p class="mobile-hidden">Статус «Арбитраж»</p>
+              <p>Арбитраж</p>
+            </div>
+            <div class="status-5">
+              <div class="icon">
+                <svg class="svg-guarded-fill" width="18" height="22" viewBox="0 0 18 22" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.19 0.360244L1.19 3.47024C0.47 3.79024 0 4.51024 0 5.30024V10.0002C0 15.5502 3.84 20.7402 9 22.0002C14.16 20.7402 18 15.5502 18 10.0002V5.30024C18 4.51024 17.53 3.79024 16.81 3.47024L9.81 0.360244C9.3 0.130244 8.7 0.130244 8.19 0.360244ZM6.29 15.2902L3.7 12.7002C3.31 12.3102 3.31 11.6802 3.7 11.2902C4.09 10.9002 4.72 10.9002 5.11 11.2902L7 13.1702L12.88 7.29024C13.27 6.90024 13.9 6.90024 14.29 7.29024C14.68 7.68024 14.68 8.31024 14.29 8.70024L7.7 15.2902C7.32 15.6802 6.68 15.6802 6.29 15.2902Z"/>
+                </svg>
+              </div>
+              <p class="mobile-hidden">Статус «Завершенная сделка»</p>
+              <p>Завершенная сделка</p>
+            </div>
+          </div>
+          <div class="dealInfo-progress-line">
+            <span></span>
+          </div>
+          <a type="button" class="button-border dealInfo-arbitration-button" href="#">
+            Арбитраж
+            <svg class="svg-alert" width="20" height="18" viewBox="0 0 20 18" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.47012 17.9999H17.5301C19.0701 17.9999 20.0301 16.3299 19.2601 14.9999L11.7301 1.98993C10.9601 0.659932 9.04012 0.659932 8.27012 1.98993L0.740121 14.9999C-0.0298788 16.3299 0.930121 17.9999 2.47012 17.9999ZM10.0001 10.9999C9.45012 10.9999 9.00012 10.5499 9.00012 9.99993V7.99993C9.00012 7.44993 9.45012 6.99993 10.0001 6.99993C10.5501 6.99993 11.0001 7.44993 11.0001 7.99993V9.99993C11.0001 10.5499 10.5501 10.9999 10.0001 10.9999ZM11.0001 14.9999H9.00012V12.9999H11.0001V14.9999Z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="dealInfo-data">
+      <div class="container">
+        <div class="dealInfo-data-wrapper">
+          <p class="title">
+            Расчет суммы сделки с учетом комиссии
+          </p>
+  
+          <div class="row-style">
+            <div class="col">
+              <p class="title">
+                Название сделки
+              </p>
+            </div>
+            <div class="col">
+              <p class="text">
+                АРЕНА АФК | 190 ЛВЛ | Глава 37 | 286 M СИЛЫ | 10 VIP | S607 / 34 ВОЗВЫШЕННЫХ ГЕРОЯ
+              </p>
+            </div>
+          </div>
+  
+          <div class="row-style">
+            <div class="col">
+              <p class="title">
+                Заказчик
+              </p>
+            </div>
+            <div class="col">
+              <p class="text">
+                Штирлиц А
+              </p>
+            </div>
+          </div>
+  
+          <div class="row-style">
+            <div class="col">
+              <p class="title">
+                Исполнитель
+              </p>
+            </div>
+            <div class="col">
+              <p class="text">
+                Марла
+              </p>
+            </div>
+          </div>
+  
+          <div class="row-style">
+            <div class="col">
+              <p class="title">
+                Сумма сделки
+              </p>
+            </div>
+            <div class="col">
+              <p class="text">
+                2000₽
+              </p>
+            </div>
+          </div>
+  
+          <div class="row-style">
+            <div class="col">
+              <p class="title">
+                Комиссия сделки
+              </p>
+            </div>
+            <div class="col">
+              <p class="text">
+                100₽
+              </p>
+            </div>
+          </div>
+  
+          <div class="row-style">
+            <div class="col">
+              <p class="title">
+                Итоговая сумма сделки
+              </p>
+            </div>
+            <div class="col">
+              <p class="text">
+                2100₽
+              </p>
+            </div>
+          </div>
+  
+          <div class="row-style">
+            <div class="col">
+              <p class="title">
+                Описание сделки
+              </p>
+            </div>
+            <div class="col">
+              <p class="text">
+                286M - силы
+                <br>372 - уровень героев
+                <br>34 - возвышенных героев
+                <br>6 - героев иномирцев(Мерлин,Артур,Да Винчи,<br>Баба Яга,Жанна д'Арк,Аинз(аренда) )
+                <br>
+                <br>Глава 37-2
+                <br>Уровень аккаунта 190
+                <br>67 Уровень Старейшего Древа
+                <br>
+                <br>7 Героев 30/30 SI
+                <br>8 Героев 9/9 Мебель и еще несколько на подходе
+                <br>6 Героев 4/4 T4
+                <br>6 Героев 4/4 T3
+                <br>Все герои, у которых разблокирован SI, имеют <br>легендарный SI +
+                <Br>VIP 10
+                <br>Отдаю вам аккаунт Google.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="dealInfo-control">
+      
+      <div class="container">
+
+        <div class="dealInfo-control-buttons">
+          <a type="button" class="button-border" href="#">
+            Заморозить сделку
+          </a>
+          <a type="button" class="button" href="#">
+            Подтвердить
+          </a>
+        </div>
+        
+        <p class="dealInfo-control-notice">
+          Нажимая “Подтвердить”, вы автоматически завершаете сделку и деньги переводятся Исполнителю. Если товар не соответствует заявленным характеристикам, вы можете заморозить сделку и вызвать арбитраж для решения проблемы.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="dealInfo-chat">
+
+      <div class="container">
+
+        <div class="dealInfo-chat-wrapper">
+
+          <div class="dealInfo-chat-top">
+            <div></div>
+            <div class="sence">
+              <p class="dealInfo-chat-title">
+                Чат с заказчиком
+              </p>
+              <p class="dealInfo-chat-description text-small">
+                Заказчик был 30 минут назад
+              </p>
+            </div>
+            <div>
+              <img src="./assets/images/circles-gray.svg" alt="">
+            </div>
+          </div>
+    
+          <div class="dealInfo-chat-box">
+
+            <div class="message-group">
+              <p class="date">8/20/2020</p>
+            </div>
+    
+            <div class="message-group">
+              <div class="dealInfo-chat-message message-partner">
+                <p class="message-text">
+                  Ебаный пиздец
+                </p>
+                <div class="message-footer">
+                  <p class="message-author">
+                    Заказчик
+                  </p>
+                  <div class="message-meta">
+                    <p class="message-time">
+                      2:15 pm
+                    </p>
+                    <div class="message-status">
+                      <svg width="14" height="8" viewBox="0 0 14 8" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.0916 0.17476C9.86412 -0.0527404 9.49662 -0.0527404 9.26912 0.17476L5.97912 3.46476L6.80162 4.28726L10.0916 0.991426C10.3133 0.769759 10.3133 0.396426 10.0916 0.17476V0.17476ZM12.565 0.168926L6.80162 5.93226L4.77162 3.90809C4.54412 3.68059 4.17662 3.68059 3.94912 3.90809C3.72162 4.13559 3.72162 4.50309 3.94912 4.73059L6.38746 7.16893C6.61496 7.39643 6.98246 7.39643 7.20996 7.16893L13.3875 0.99726C13.615 0.76976 13.615 0.40226 13.3875 0.17476H13.3816C13.16 -0.0585737 12.7925 -0.0585739 12.565 0.168926ZM0.653291 4.73643L3.09162 7.17476C3.31912 7.40226 3.68662 7.40226 3.91412 7.17476L4.32246 6.76643L1.47579 3.90809C1.24829 3.68059 0.880791 3.68059 0.653291 3.90809C0.425791 4.13559 0.425791 4.50893 0.653291 4.73643V4.73643Z"/>
+                      </svg>                  
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="dealInfo-chat-message message-partner">
+                <p class="message-text">
+                  Сделка оплачена ✅.  Теперь вы должны исполнить свои обязательства в рамках этой суммы. Для передачи информации и общения используйте данный чат. 
+                </p>
+                <div class="message-footer">
+                  <p class="message-author">
+                    ⚙️ Система
+                  </p>
+                  <div class="message-meta">
+                    <p class="message-time">
+                      2:15 pm
+                    </p>
+                    <div class="message-status">
+                      <svg width="14" height="8" viewBox="0 0 14 8" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.0916 0.17476C9.86412 -0.0527404 9.49662 -0.0527404 9.26912 0.17476L5.97912 3.46476L6.80162 4.28726L10.0916 0.991426C10.3133 0.769759 10.3133 0.396426 10.0916 0.17476V0.17476ZM12.565 0.168926L6.80162 5.93226L4.77162 3.90809C4.54412 3.68059 4.17662 3.68059 3.94912 3.90809C3.72162 4.13559 3.72162 4.50309 3.94912 4.73059L6.38746 7.16893C6.61496 7.39643 6.98246 7.39643 7.20996 7.16893L13.3875 0.99726C13.615 0.76976 13.615 0.40226 13.3875 0.17476H13.3816C13.16 -0.0585737 12.7925 -0.0585739 12.565 0.168926ZM0.653291 4.73643L3.09162 7.17476C3.31912 7.40226 3.68662 7.40226 3.91412 7.17476L4.32246 6.76643L1.47579 3.90809C1.24829 3.68059 0.880791 3.68059 0.653291 3.90809C0.425791 4.13559 0.425791 4.50893 0.653291 4.73643V4.73643Z"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="dealInfo-chat-message message-partner">
+                <p class="message-text">
+                  Оплатила сделку щас
+                </p>
+                <div class="message-footer">
+                  <p class="message-author">
+                    👤 Администрация
+                  </p>
+                  <div class="message-meta">
+                    <p class="message-time">
+                      2:15 pm
+                    </p>
+                    <div class="message-status">
+                      <svg width="14" height="8" viewBox="0 0 14 8" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.0916 0.17476C9.86412 -0.0527404 9.49662 -0.0527404 9.26912 0.17476L5.97912 3.46476L6.80162 4.28726L10.0916 0.991426C10.3133 0.769759 10.3133 0.396426 10.0916 0.17476V0.17476ZM12.565 0.168926L6.80162 5.93226L4.77162 3.90809C4.54412 3.68059 4.17662 3.68059 3.94912 3.90809C3.72162 4.13559 3.72162 4.50309 3.94912 4.73059L6.38746 7.16893C6.61496 7.39643 6.98246 7.39643 7.20996 7.16893L13.3875 0.99726C13.615 0.76976 13.615 0.40226 13.3875 0.17476H13.3816C13.16 -0.0585737 12.7925 -0.0585739 12.565 0.168926ZM0.653291 4.73643L3.09162 7.17476C3.31912 7.40226 3.68662 7.40226 3.91412 7.17476L4.32246 6.76643L1.47579 3.90809C1.24829 3.68059 0.880791 3.68059 0.653291 3.90809C0.425791 4.13559 0.425791 4.50893 0.653291 4.73643V4.73643Z"/>
+                      </svg>                  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="message-group">
+              <div class="dealInfo-chat-message message-me">
+                <p class="message-text">
+                  Воркай давай скотина
+                </p>
+                <div class="message-footer">
+                  <p class="message-author">
+                    by Ник
+                  </p>
+                  <div class="message-meta">
+                    <p class="message-time">
+                      2:15 pm
+                    </p>
+                    <div class="message-status">
+                      <svg width="14" height="8" viewBox="0 0 14 8" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.0916 0.17476C9.86412 -0.0527404 9.49662 -0.0527404 9.26912 0.17476L5.97912 3.46476L6.80162 4.28726L10.0916 0.991426C10.3133 0.769759 10.3133 0.396426 10.0916 0.17476V0.17476ZM12.565 0.168926L6.80162 5.93226L4.77162 3.90809C4.54412 3.68059 4.17662 3.68059 3.94912 3.90809C3.72162 4.13559 3.72162 4.50309 3.94912 4.73059L6.38746 7.16893C6.61496 7.39643 6.98246 7.39643 7.20996 7.16893L13.3875 0.99726C13.615 0.76976 13.615 0.40226 13.3875 0.17476H13.3816C13.16 -0.0585737 12.7925 -0.0585739 12.565 0.168926ZM0.653291 4.73643L3.09162 7.17476C3.31912 7.40226 3.68662 7.40226 3.91412 7.17476L4.32246 6.76643L1.47579 3.90809C1.24829 3.68059 0.880791 3.68059 0.653291 3.90809C0.425791 4.13559 0.425791 4.50893 0.653291 4.73643V4.73643Z"/>
+                      </svg>                  
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="dealInfo-chat-message message-me">
+                <p class="message-text">
+                  и чтоб воркал хорошо
+                </p>
+                <div class="message-footer">
+                  <p class="message-author">
+                    by Ник
+                  </p>
+                  <div class="message-meta">
+                    <p class="message-time">
+                      2:15 pm
+                    </p>
+                    <div class="message-status">
+                      <svg width="14" height="8" viewBox="0 0 14 8" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.0916 0.17476C9.86412 -0.0527404 9.49662 -0.0527404 9.26912 0.17476L5.97912 3.46476L6.80162 4.28726L10.0916 0.991426C10.3133 0.769759 10.3133 0.396426 10.0916 0.17476V0.17476ZM12.565 0.168926L6.80162 5.93226L4.77162 3.90809C4.54412 3.68059 4.17662 3.68059 3.94912 3.90809C3.72162 4.13559 3.72162 4.50309 3.94912 4.73059L6.38746 7.16893C6.61496 7.39643 6.98246 7.39643 7.20996 7.16893L13.3875 0.99726C13.615 0.76976 13.615 0.40226 13.3875 0.17476H13.3816C13.16 -0.0585737 12.7925 -0.0585739 12.565 0.168926ZM0.653291 4.73643L3.09162 7.17476C3.31912 7.40226 3.68662 7.40226 3.91412 7.17476L4.32246 6.76643L1.47579 3.90809C1.24829 3.68059 0.880791 3.68059 0.653291 3.90809C0.425791 4.13559 0.425791 4.50893 0.653291 4.73643V4.73643Z"/>
+                      </svg>                  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="message-group">
+              <div class="dealInfo-chat-message message-partner">
+                <p class="message-text">
+                  А?!
+                </p>
+                <div class="message-footer">
+                  <p class="message-author">
+                    Заказчик
+                  </p>
+                  <div class="message-meta">
+                    <p class="message-time">
+                      2:15 pm
+                    </p>
+                    <div class="message-status">
+                      <svg width="14" height="8" viewBox="0 0 14 8" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.0916 0.17476C9.86412 -0.0527404 9.49662 -0.0527404 9.26912 0.17476L5.97912 3.46476L6.80162 4.28726L10.0916 0.991426C10.3133 0.769759 10.3133 0.396426 10.0916 0.17476V0.17476ZM12.565 0.168926L6.80162 5.93226L4.77162 3.90809C4.54412 3.68059 4.17662 3.68059 3.94912 3.90809C3.72162 4.13559 3.72162 4.50309 3.94912 4.73059L6.38746 7.16893C6.61496 7.39643 6.98246 7.39643 7.20996 7.16893L13.3875 0.99726C13.615 0.76976 13.615 0.40226 13.3875 0.17476H13.3816C13.16 -0.0585737 12.7925 -0.0585739 12.565 0.168926ZM0.653291 4.73643L3.09162 7.17476C3.31912 7.40226 3.68662 7.40226 3.91412 7.17476L4.32246 6.76643L1.47579 3.90809C1.24829 3.68059 0.880791 3.68059 0.653291 3.90809C0.425791 4.13559 0.425791 4.50893 0.653291 4.73643V4.73643Z"/>
+                      </svg>                  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <form class="dealInfo-chat-form">
+            <button type="button" class="emoji-popup">
+              <svg class="svg-smile" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.99 0C4.47 0 0 4.48 0 10C0 15.52 4.47 20 9.99 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 9.99 0ZM10 18C5.58 18 2 14.42 2 10C2 5.58 5.58 2 10 2C14.42 2 18 5.58 18 10C18 14.42 14.42 18 10 18ZM13.5 9C14.33 9 15 8.33 15 7.5C15 6.67 14.33 6 13.5 6C12.67 6 12 6.67 12 7.5C12 8.33 12.67 9 13.5 9ZM6.5 9C7.33 9 8 8.33 8 7.5C8 6.67 7.33 6 6.5 6C5.67 6 5 6.67 5 7.5C5 8.33 5.67 9 6.5 9ZM10 15.5C12.33 15.5 14.31 14.04 15.11 12H4.89C5.69 14.04 7.67 15.5 10 15.5Z"/>
+              </svg>
+            </button>
+            <input name="" placeholder="Start typing...">
+            <button>
+              <svg class="svg-send" width="16" height="14" viewBox="0 0 16 14" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.5918 1.71245L2.38095 6.25004H7.25013C7.66434 6.25004 8.00013 6.58582 8.00013 7.00004C8.00013 7.41425 7.66434 7.75004 7.25013 7.75004H2.38095L1.5918 12.2876L13.9295 7.00004L1.5918 1.71245ZM0.988869 7.00004L0.0637969 1.68087C-0.0109877 1.25086 0.128154 0.811352 0.436783 0.502722C0.824568 0.114942 1.40938 0.00231168 1.91345 0.218342L15.3158 5.9622C15.7309 6.14013 16.0001 6.54835 16.0001 7.00004C16.0001 7.45172 15.7309 7.85995 15.3158 8.03788L1.91345 13.7817C1.40938 13.9978 0.824568 13.8851 0.436783 13.4974C0.128154 13.1887 -0.0109879 12.7492 0.0637969 12.3192L0.988869 7.00004Z"/>
+              </svg>
+            </button>
+          </form>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <a class="footer-logo" href="./index.html">
+          <img src="./assets/images/logo-footer.svg" alt="">
+        </a>
+        <nav class="footer-navigation">
+          <ul>
+            <li><a href="./account-deals.html">Аккаунт</a></li>
+            <li><a href="./page-howitwork.html">Как это работает</a></li>
+            <li><a href="./page-forwhom.html">Для кого</a></li>
+            <li><a href="./page-certificates.html">Сертификаты</a></li>
+            <li><a href="./page-reviews.html">Отзывы</a></li>
+            <li><a href="./page-clients.html">Наши клиенты</a></li>
+          </ul>
+        </nav>
+        <div class="footer-paymentMethods">
+          <div class="item">
+            <img src="./assets/images/webmoney-white.svg" alt="">
+          </div>
+          <div class="item">
+            <img src="./assets/images/pci-dss-white.svg" alt="">
+          </div>
+          <div class="item">
+            <img src="./assets/images/ssl-white.svg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="text-small">©2020-2022 Гарант сервис</p>
+        <a href="./page-agreement.html" class="text-small">Пользовательское соглашение</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="popup" id="loginIn">
+    <div class="popup-wrapper">
+      <div class="popup-bg popup-close"></div>
+      <div class="popup-inner">
+        <div class="login-hat">
+          <p class="login-title">Войти</p>
+          <span class="popup-x popup-close">
+            <span class="img" style="background-image: url('./assets/images/x-gray.svg');"></span>
+          </span>
+        </div>
+        <form action="#" method="post" class="loginIn-form accountForm">
+          <label class="label error">
+            <span class="label-wrapper">
+              <input type="text" placeholder="Логин">
+            </span>
+            <span class="label-error">
+              Неверный логин
+            </span>
+          </label>
+          <label class="label">
+            <span class="label-wrapper">
+              <input type="password" placeholder="Пароль">
+              <span class="input-control">
+                <span class="hide"><img src="./assets/images/eye-hide.svg" alt=""></span>
+                <span class="default"><img src="./assets/images/eye.svg" alt=""></span>
+              </span>
+            </span>
+            <span class="label-error">
+              Неправильный пароль
+            </span>
+          </label>
+          <button type="button" class="button">
+            вОЙТИ
+          </button>
+          <div class="accountForm-bottom">
+            <p>Нет учетной записи?</p>
+            <a href="#" data-open_popup="signUp">Зарегистрировать</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="popup" id="signUp">
+    <div class="popup-wrapper">
+      <div class="popup-bg popup-close"></div>
+      <div class="popup-inner">
+        <div class="login-hat">
+          <p class="login-title">Регистрация</p>
+          <span class="popup-x popup-close">
+            <span class="img" style="background-image: url('./assets/images/x-gray.svg');"></span>
+          </span>
+        </div>
+        <form action="#" method="post" class="signUp-form accountForm">
+          <label class="label">
+            <span class="label-wrapper">
+              <input type="text" placeholder="Логин">
+            </span>
+            <span class="label-error">
+              Имеются ошибки в поле
+            </span>
+          </label>
+          <label class="label">
+            <span class="label-wrapper">
+              <input type="email" placeholder="Email">
+            </span>
+            <span class="label-error">
+              Имеются ошибки в поле
+            </span>
+          </label>
+          <label class="label">
+            <span class="label-wrapper">
+              <input type="password" placeholder="Пароль">
+              <span class="input-control">
+                <span class="hide"><img src="./assets/images/eye-hide.svg" alt=""></span>
+                <span class="default"><img src="./assets/images/eye.svg" alt=""></span>
+              </span>
+            </span>
+            <span class="label-error">
+              Пароль слишком прост
+            </span>
+          </label>
+          <label class="label">
+            <span class="label-wrapper">
+              <input type="password" placeholder="Подтвердите пароль">
+              <span class="input-control">
+                <span class="hide"><img src="./assets/images/eye-hide.svg" alt=""></span>
+                <span class="default"><img src="./assets/images/eye.svg" alt=""></span>
+              </span>
+            </span>
+            <span class="label-error">
+              Пароли не совпадают
+            </span>
+          </label>
+          <button type="button" class="button" data-open_popup="signUp">
+            Создать аккаунт
+          </button>
+          <label class="label-check-mark">
+            <input type="checkbox" name="confirm" checked>
+            <span class="check-mark">
+              <span class="img" style="background-image: url('./assets/images/check-mark.svg');"></span>
+            </span>
+            <span>Я ознакомлен c "<a href="./page-agreement.html">Пользовательским соглашением</a>"</span>
+          </label>
+          <div class="accountForm-bottom">
+            <p>Уже есть аккаунт?</p>
+            <a href="#" data-open_popup="loginIn">Войти</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="./assets/js/jquery-3.6.1.min.js"></script>
+  <script src="./assets/swiper/swiper-bundle.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

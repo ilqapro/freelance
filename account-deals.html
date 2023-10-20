@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Аккаунт - сделки</title>
+
+  <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body class="do-css-hover accountPage">
+
+  <!-- classes: style-home -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header-wrapper">
+        <a class="header-logo" href="index.html">
+          <img src="./assets/images/logo-header.svg" alt="">
+        </a>
+        <nav class="header-menu">
+          <ul>
+            <li><a href="./account-deals.html">Мои сделки</a></li>
+            <li><a href="./account-blocked.html">Блокировка</a></li>
+            <li><a href="./account-deal-info.html">Инфа сделки</a></li>
+            <li><a href="./account-deal-new.html">Новая сделка</a></li>
+            <li><a href="./account-payment-refill.html">Пополнение счета</a></li>
+          </ul>
+        </nav>
+        <div class="header-accountControl">
+          <div class="item">
+            <a href="./account-deals.html" class="text-bold">Мои сделки</a>
+          </div>
+          <div class="item">
+            <a href="./account-payments.html" class="text-bold">Мой счет</a>
+            <p class="header-accountControl-userMoney">
+              20 000.00₽
+            </p>
+          </div>
+          <div class="item">
+            <button class="header-accountControl-userMenu color-blue" type="button">
+              <svg class="svg-user" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 8C10.21 8 12 6.21 12 4C12 1.79 10.21 0 8 0C5.79 0 4 1.79 4 4C4 6.21 5.79 8 8 8ZM8 10C5.33 10 0 11.34 0 14V16H16V14C16 11.34 10.67 10 8 10Z"/>
+              </svg>
+              <span class="user-name text-bold">Fafnirov2</span>
+              <img src="./assets/images/arrow-list.svg" alt="">
+              <ul class="sub-menu">
+                <li><a href="./account-settings.html">Настройки</a></li>
+                <li><a href="">Выйти</a></li>
+              </ul>
+            </button>
+          </div>
+        </div>
+        <button type="button" class="header-burger">
+          <span class="img"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="container">
+      <div class="blockStyle">
+        <div class="blockStyle-hat">
+          <p class="blockStyle-title">
+            Мои сделки
+          </p>
+          <a href="account-deal-new.html" class="button">
+            Создать Сделку
+          </a>
+        </div>
+      </div>
+  
+      <div class="dealsList">
+        <div class="dealList-empty">
+          <p>
+            Пока что тут пусто, потому что у вас еще ни одной сделки
+          </p>
+        </div>
+        <div class="dealsList-wrapper">
+  
+          <div class="dealsList-item">
+            <a class="dealsList-item-link" href="account-deal-info.html">
+              Перейти к сделке
+            </a>
+            <div class="tableStyle">
+              <div class="tableStyle-item">
+                <p class="title">
+                  Номер сделки
+                </p>
+                <p class="text">
+                  #4443434
+                </p>
+              </div>
+              <div class="tableStyle-item">
+                <p class="title">
+                  Название
+                </p>
+                <p class="text">
+                  Супер тупое назва...
+                </p>
+              </div>
+              <div class="tableStyle-item">
+                <p class="title">
+                  Сумма
+                </p>
+                <p class="text">
+                  2000.00₽
+                </p>
+              </div>
+              <div class="tableStyle-item">
+                <p class="title">
+                  Статус
+                </p>
+                <p class="text style-paid">
+                  Оплачена
+                  <svg width="14" height="8" viewBox="0 0 14 8" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.0916 0.17476C9.86412 -0.0527404 9.49662 -0.0527404 9.26912 0.17476L5.97912 3.46476L6.80162 4.28726L10.0916 0.991426C10.3133 0.769759 10.3133 0.396426 10.0916 0.17476V0.17476ZM12.565 0.168926L6.80162 5.93226L4.77162 3.90809C4.54412 3.68059 4.17662 3.68059 3.94912 3.90809C3.72162 4.13559 3.72162 4.50309 3.94912 4.73059L6.38746 7.16893C6.61496 7.39643 6.98246 7.39643 7.20996 7.16893L13.3875 0.99726C13.615 0.76976 13.615 0.40226 13.3875 0.17476H13.3816C13.16 -0.0585737 12.7925 -0.0585739 12.565 0.168926ZM0.653291 4.73643L3.09162 7.17476C3.31912 7.40226 3.68662 7.40226 3.91412 7.17476L4.32246 6.76643L1.47579 3.90809C1.24829 3.68059 0.880791 3.68059 0.653291 3.90809C0.425791 4.13559 0.425791 4.50893 0.653291 4.73643V4.73643Z"/>
+                  </svg>
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="dealsList-item">
+            <a class="dealsList-item-link" href="account-deal-info.html">
+              Перейти к сделке
+            </a>
+            <div class="tableStyle">
+              <div class="tableStyle-item">
+                <p class="title">
+                  Номер сделки
+                </p>
+                <p class="text">
+                  #4443434
+                </p>
+              </div>
+              <div class="tableStyle-item">
+                <p class="title">
+                  Название
+                </p>
+                <p class="text">
+                  Супер тупое назва...
+                </p>
+              </div>
+              <div class="tableStyle-item">
+                <p class="title">
+                  Сумма
+                </p>
+                <p class="text">
+                  2000.00₽
+                </p>
+              </div>
+              <div class="tableStyle-item">
+                <p class="title">
+                  Статус
+                </p>
+                <p class="text style-done">
+                  Завершена
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="dealsList-item">
+            <a class="dealsList-item-link" href="account-deal-info.html">
+              Перейти к сделке
+            </a>
+            <div class="tableStyle">
+              <div class="tableStyle-item">
+                <p class="title">
+                  Номер сделки
+                </p>
+                <p class="text">
+                  #4443434
+                </p>
+              </div>
+              <div class="tableStyle-item">
+                <p class="title">
+                  Название
+                </p>
+                <p class="text">
+                  Супер тупое назва...
+                </p>
+              </div>
+              <div class="tableStyle-item">
+                <p class="title">
+                  Сумма
+                </p>
+                <p class="text">
+                  2000.00₽
+                </p>
+              </div>
+              <div class="tableStyle-item">
+                <p class="title">
+                  Статус
+                </p>
+                <p class="text style-arbitration">
+                  Арбитраж
+                  <svg class="svg-alert" width="20" height="18" viewBox="0 0 20 18" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.47012 17.9999H17.5301C19.0701 17.9999 20.0301 16.3299 19.2601 14.9999L11.7301 1.98993C10.9601 0.659932 9.04012 0.659932 8.27012 1.98993L0.740121 14.9999C-0.0298788 16.3299 0.930121 17.9999 2.47012 17.9999ZM10.0001 10.9999C9.45012 10.9999 9.00012 10.5499 9.00012 9.99993V7.99993C9.00012 7.44993 9.45012 6.99993 10.0001 6.99993C10.5501 6.99993 11.0001 7.44993 11.0001 7.99993V9.99993C11.0001 10.5499 10.5501 10.9999 10.0001 10.9999ZM11.0001 14.9999H9.00012V12.9999H11.0001V14.9999Z"/>
+                  </svg>
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="dealsList-item">
+            <a class="dealsList-item-link in-wait" href="">
+              Подтвердить участие
+            </a>
+            <div class="tableStyle">
+              <div class="tableStyle-item">
+                <p class="title">
+                  Номер сделки
+                </p>
+                <p class="text">
+                  #4443434
+                </p>
+              </div>
+              <div class="tableStyle-item">
+                <p class="title">
+                  Название
+                </p>
+                <p class="text">
+                  Супер тупое назва...
+                </p>
+              </div>
+              <div class="tableStyle-item">
+                <p class="title">
+                  Сумма
+                </p>
+                <p class="text">
+                  2000.00₽
+                </p>
+              </div>
+              <div class="tableStyle-item">
+                <p class="title">
+                  Статус
+                </p>
+                <p class="text style-waiting">
+                  На согласовании
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="dealsList-item">
+            <a class="dealsList-item-link" href="account-deal-info.html">
+              Перейти к сделке
+            </a>
+            <div class="tableStyle">
+              <div class="tableStyle-item">
+                <p class="title">
+                  Номер сделки
+                </p>
+                <p class="text">
+                  #4443434
+                </p>
+              </div>
+              <div class="tableStyle-item">
+                <p class="title">
+                  Название
+                </p>
+                <p class="text">
+                  Супер тупое назва...
+                </p>
+              </div>
+              <div class="tableStyle-item">
+                <p class="title">
+                  Сумма
+                </p>
+                <p class="text">
+                  2000.00₽
+                </p>
+              </div>
+              <div class="tableStyle-item">
+                <p class="title">
+                  Статус
+                </p>
+                <p class="text style-payment">
+                  Ожидается оплата
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="dealsList-item">
+            <a class="dealsList-item-link" href="account-deal-info.html">
+              Перейти к сделке
+            </a>
+            <div class="tableStyle">
+              <div class="tableStyle-item">
+                <p class="title">
+                  Номер сделки
+                </p>
+                <p class="text">
+                  #4443434
+                </p>
+              </div>
+              <div class="tableStyle-item">
+                <p class="title">
+                  Название
+                </p>
+                <p class="text">
+                  Супер тупое назва...
+                </p>
+              </div>
+              <div class="tableStyle-item">
+                <p class="title">
+                  Сумма
+                </p>
+                <p class="text">
+                  2000.00₽
+                </p>
+              </div>
+              <div class="tableStyle-item">
+                <p class="title">
+                  Статус
+                </p>
+                <p class="text style-paid">
+                  Оплачена
+                  <svg width="14" height="8" viewBox="0 0 14 8" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.0916 0.17476C9.86412 -0.0527404 9.49662 -0.0527404 9.26912 0.17476L5.97912 3.46476L6.80162 4.28726L10.0916 0.991426C10.3133 0.769759 10.3133 0.396426 10.0916 0.17476V0.17476ZM12.565 0.168926L6.80162 5.93226L4.77162 3.90809C4.54412 3.68059 4.17662 3.68059 3.94912 3.90809C3.72162 4.13559 3.72162 4.50309 3.94912 4.73059L6.38746 7.16893C6.61496 7.39643 6.98246 7.39643 7.20996 7.16893L13.3875 0.99726C13.615 0.76976 13.615 0.40226 13.3875 0.17476H13.3816C13.16 -0.0585737 12.7925 -0.0585739 12.565 0.168926ZM0.653291 4.73643L3.09162 7.17476C3.31912 7.40226 3.68662 7.40226 3.91412 7.17476L4.32246 6.76643L1.47579 3.90809C1.24829 3.68059 0.880791 3.68059 0.653291 3.90809C0.425791 4.13559 0.425791 4.50893 0.653291 4.73643V4.73643Z"/>
+                  </svg>
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="dealsList-item">
+            <a class="dealsList-item-link" href="account-deal-info.html">
+              Перейти к сделке
+            </a>
+            <div class="tableStyle">
+              <div class="tableStyle-item">
+                <p class="title">
+                  Номер сделки
+                </p>
+                <p class="text">
+                  #4443434
+                </p>
+              </div>
+              <div class="tableStyle-item">
+                <p class="title">
+                  Название
+                </p>
+                <p class="text">
+                  Супер тупое назва...
+                </p>
+              </div>
+              <div class="tableStyle-item">
+                <p class="title">
+                  Сумма
+                </p>
+                <p class="text">
+                  2000.00₽
+                </p>
+              </div>
+              <div class="tableStyle-item">
+                <p class="title">
+                  Статус
+                </p>
+                <p class="text style-arbitration">
+                  Арбитраж
+                  <svg class="svg-alert" width="20" height="18" viewBox="0 0 20 18" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.47012 17.9999H17.5301C19.0701 17.9999 20.0301 16.3299 19.2601 14.9999L11.7301 1.98993C10.9601 0.659932 9.04012 0.659932 8.27012 1.98993L0.740121 14.9999C-0.0298788 16.3299 0.930121 17.9999 2.47012 17.9999ZM10.0001 10.9999C9.45012 10.9999 9.00012 10.5499 9.00012 9.99993V7.99993C9.00012 7.44993 9.45012 6.99993 10.0001 6.99993C10.5501 6.99993 11.0001 7.44993 11.0001 7.99993V9.99993C11.0001 10.5499 10.5501 10.9999 10.0001 10.9999ZM11.0001 14.9999H9.00012V12.9999H11.0001V14.9999Z"/>
+                  </svg>
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="dealsList-item">
+            <a class="dealsList-item-link" href="account-deal-info.html">
+              Перейти к сделке
+            </a>
+            <div class="tableStyle">
+              <div class="tableStyle-item">
+                <p class="title">
+                  Номер сделки
+                </p>
+                <p class="text">
+                  #4443434
+                </p>
+              </div>
+              <div class="tableStyle-item">
+                <p class="title">
+                  Название
+                </p>
+                <p class="text">
+                  Супер тупое назва...
+                </p>
+              </div>
+              <div class="tableStyle-item">
+                <p class="title">
+                  Сумма
+                </p>
+                <p class="text">
+                  2000.00₽
+                </p>
+              </div>
+              <div class="tableStyle-item">
+                <p class="title">
+                  Статус
+                </p>
+                <p class="text style-arbitration">
+                  Арбитраж
+                  <svg class="svg-alert" width="20" height="18" viewBox="0 0 20 18" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.47012 17.9999H17.5301C19.0701 17.9999 20.0301 16.3299 19.2601 14.9999L11.7301 1.98993C10.9601 0.659932 9.04012 0.659932 8.27012 1.98993L0.740121 14.9999C-0.0298788 16.3299 0.930121 17.9999 2.47012 17.9999ZM10.0001 10.9999C9.45012 10.9999 9.00012 10.5499 9.00012 9.99993V7.99993C9.00012 7.44993 9.45012 6.99993 10.0001 6.99993C10.5501 6.99993 11.0001 7.44993 11.0001 7.99993V9.99993C11.0001 10.5499 10.5501 10.9999 10.0001 10.9999ZM11.0001 14.9999H9.00012V12.9999H11.0001V14.9999Z"/>
+                  </svg>
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="dealsList-item">
+            <a class="dealsList-item-link" href="account-deal-info.html">
+              Перейти к сделке
+            </a>
+            <div class="tableStyle">
+              <div class="tableStyle-item">
+                <p class="title">
+                  Номер сделки
+                </p>
+                <p class="text">
+                  #4443434
+                </p>
+              </div>
+              <div class="tableStyle-item">
+                <p class="title">
+                  Название
+                </p>
+                <p class="text">
+                  Супер тупое назва...
+                </p>
+              </div>
+              <div class="tableStyle-item">
+                <p class="title">
+                  Сумма
+                </p>
+                <p class="text">
+                  2000.00₽
+                </p>
+              </div>
+              <div class="tableStyle-item">
+                <p class="title">
+                  Статус
+                </p>
+                <p class="text style-arbitration">
+                  Арбитраж
+                  <svg class="svg-alert" width="20" height="18" viewBox="0 0 20 18" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.47012 17.9999H17.5301C19.0701 17.9999 20.0301 16.3299 19.2601 14.9999L11.7301 1.98993C10.9601 0.659932 9.04012 0.659932 8.27012 1.98993L0.740121 14.9999C-0.0298788 16.3299 0.930121 17.9999 2.47012 17.9999ZM10.0001 10.9999C9.45012 10.9999 9.00012 10.5499 9.00012 9.99993V7.99993C9.00012 7.44993 9.45012 6.99993 10.0001 6.99993C10.5501 6.99993 11.0001 7.44993 11.0001 7.99993V9.99993C11.0001 10.5499 10.5501 10.9999 10.0001 10.9999ZM11.0001 14.9999H9.00012V12.9999H11.0001V14.9999Z"/>
+                  </svg>
+                </p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="dealsList-navigation">
+          <a class="item prev is-disable" href="#">
+            <svg width="9" height="12" viewBox="0 0 9 12" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8.15991 1.41L3.57991 6L8.15991 10.59L6.74991 12L0.749912 6L6.74991 0L8.15991 1.41Z"/>
+            </svg>              
+          </a>
+          <a class="item current" href="#">
+            1
+          </a>
+          <a class="item" href="#">
+            2
+          </a>
+          <a class="item is-not-touchable" href="#">
+            ...
+          </a>
+          <a class="item" href="#">
+            9
+          </a>
+          <a class="item" href="#">
+            10
+          </a>
+          <a class="item prev" href="#">
+            <svg width="9" height="12" viewBox="0 0 9 12" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.840088 1.41L5.42009 6L0.840088 10.59L2.25009 12L8.25009 6L2.25009 0L0.840088 1.41Z"/>
+            </svg>            
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <a class="footer-logo" href="./index.html">
+          <img src="./assets/images/logo-footer.svg" alt="">
+        </a>
+        <nav class="footer-navigation">
+          <ul>
+            <li><a href="./account-deals.html">Аккаунт</a></li>
+            <li><a href="./page-howitwork.html">Как это работает</a></li>
+            <li><a href="./page-forwhom.html">Для кого</a></li>
+            <li><a href="./page-certificates.html">Сертификаты</a></li>
+            <li><a href="./page-reviews.html">Отзывы</a></li>
+            <li><a href="./page-clients.html">Наши клиенты</a></li>
+          </ul>
+        </nav>
+        <div class="footer-paymentMethods">
+          <div class="item">
+            <img src="./assets/images/webmoney-white.svg" alt="">
+          </div>
+          <div class="item">
+            <img src="./assets/images/pci-dss-white.svg" alt="">
+          </div>
+          <div class="item">
+            <img src="./assets/images/ssl-white.svg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="text-small">©2020-2022 Гарант сервис</p>
+        <a href="./page-agreement.html" class="text-small">Пользовательское соглашение</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="popup" id="loginIn">
+    <div class="popup-wrapper">
+      <div class="popup-bg popup-close"></div>
+      <div class="popup-inner">
+        <div class="login-hat">
+          <p class="login-title">Войти</p>
+          <span class="popup-x popup-close">
+            <span class="img" style="background-image: url('./assets/images/x-gray.svg');"></span>
+          </span>
+        </div>
+        <form action="#" method="post" class="loginIn-form accountForm">
+          <label class="label error">
+            <span class="label-wrapper">
+              <input type="text" placeholder="Логин">
+            </span>
+            <span class="label-error">
+              Неверный логин
+            </span>
+          </label>
+          <label class="label">
+            <span class="label-wrapper">
+              <input type="password" placeholder="Пароль">
+              <span class="input-control">
+                <span class="hide"><img src="./assets/images/eye-hide.svg" alt=""></span>
+                <span class="default"><img src="./assets/images/eye.svg" alt=""></span>
+              </span>
+            </span>
+            <span class="label-error">
+              Неправильный пароль
+            </span>
+          </label>
+          <button type="button" class="button">
+            вОЙТИ
+          </button>
+          <div class="accountForm-bottom">
+            <p>Нет учетной записи?</p>
+            <a href="#" data-open_popup="signUp">Зарегистрировать</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="popup" id="signUp">
+    <div class="popup-wrapper">
+      <div class="popup-bg popup-close"></div>
+      <div class="popup-inner">
+        <div class="login-hat">
+          <p class="login-title">Регистрация</p>
+          <span class="popup-x popup-close">
+            <span class="img" style="background-image: url('./assets/images/x-gray.svg');"></span>
+          </span>
+        </div>
+        <form action="#" method="post" class="signUp-form accountForm">
+          <label class="label">
+            <span class="label-wrapper">
+              <input type="text" placeholder="Логин">
+            </span>
+            <span class="label-error">
+              Имеются ошибки в поле
+            </span>
+          </label>
+          <label class="label">
+            <span class="label-wrapper">
+              <input type="email" placeholder="Email">
+            </span>
+            <span class="label-error">
+              Имеются ошибки в поле
+            </span>
+          </label>
+          <label class="label">
+            <span class="label-wrapper">
+              <input type="password" placeholder="Пароль">
+              <span class="input-control">
+                <span class="hide"><img src="./assets/images/eye-hide.svg" alt=""></span>
+                <span class="default"><img src="./assets/images/eye.svg" alt=""></span>
+              </span>
+            </span>
+            <span class="label-error">
+              Пароль слишком прост
+            </span>
+          </label>
+          <label class="label">
+            <span class="label-wrapper">
+              <input type="password" placeholder="Подтвердите пароль">
+              <span class="input-control">
+                <span class="hide"><img src="./assets/images/eye-hide.svg" alt=""></span>
+                <span class="default"><img src="./assets/images/eye.svg" alt=""></span>
+              </span>
+            </span>
+            <span class="label-error">
+              Пароли не совпадают
+            </span>
+          </label>
+          <button type="button" class="button" data-open_popup="signUp">
+            Создать аккаунт
+          </button>
+          <label class="label-check-mark">
+            <input type="checkbox" name="confirm" checked>
+            <span class="check-mark">
+              <span class="img" style="background-image: url('./assets/images/check-mark.svg');"></span>
+            </span>
+            <span>Я ознакомлен c "<a href="./page-agreement.html">Пользовательским соглашением</a>"</span>
+          </label>
+          <div class="accountForm-bottom">
+            <p>Уже есть аккаунт?</p>
+            <a href="#" data-open_popup="loginIn">Войти</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="./assets/js/jquery-3.6.1.min.js"></script>
+  <script src="./assets/swiper/swiper-bundle.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

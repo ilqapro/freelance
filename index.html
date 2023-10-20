@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Главная</title>
+
+  <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body class="do-css-hover">
+
+  <!-- classes: style-home -->
+  <header class="header style-home" id="header">
+    <div class="container">
+      <div class="header-wrapper">
+        <a class="header-logo" href="./index.html">
+          <img src="./assets/images/logo-header.svg" alt="">
+        </a>
+        <nav class="header-menu">
+          <ul>
+            <li><a href="./account-deals.html">Аккаунт</a></li>
+            <li><a href="./page-howitwork.html">Как это работает</a></li>
+            <li><a href="./page-forwhom.html">Для кого</a></li>
+            <li><a href="./page-certificates.html">Сертификаты</a></li>
+            <li><a href="./page-reviews.html">Отзывы</a></li>
+            <li><a href="./page-clients.html">Наши клиенты</a></li>
+          </ul>
+        </nav>
+        <div class="header-accountControl">
+          <div class="item">
+            <a href="#" data-open_popup="loginIn" class="text-bold">Войти</a>
+          </div>
+          <div class="item">
+            <a href="#" data-open_popup="signUp" class="color-blue text-bold">Зарегистрироваться</a>
+          </div>
+        </div>
+        <button type="button" class="header-burger">
+          <span class="img"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero-wrapper">
+          <div class="hero-side">
+            <h1>
+              Фриланс-биржа для проведения
+              <span>безопасных сделок</span>
+              в интернете
+            </h1>
+            <button type="button" class="button" data-open_popup="signUp">
+              Создать аккаунт
+            </button>
+          </div>
+          <div class="hero-figure">
+            <img src="./assets/images/hero-bg.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="clients">
+      <div class="container">
+        <div class="clients-wrapper">
+          <h2 class="clients-title">
+            Нам доверяют:
+          </h2>
+          <div class="clients-item">
+            <span class="img" style="background-image: url('./assets/images/company-01.png');"></span>
+          </div>
+          <div class="clients-item">
+            <span class="img" style="background-image: url('./assets/images/company-02.png');"></span>
+          </div>
+          <div class="clients-item">
+            <span class="img" style="background-image: url('./assets/images/company-03.png');"></span>
+          </div>
+          <div class="clients-item">
+            <span class="img" style="background-image: url('./assets/images/company-04.png');"></span>
+          </div>
+          <div class="clients-item">
+            <span class="img" style="background-image: url('./assets/images/company-05.png');"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="infoBlock">
+      <div class="container">
+        <div class="infoBlock-wrapper">
+          <div class="infoBlock-figure">
+            <div class="img-wrapper">
+              <span class="img" style="background-image: url('./assets/images/picture-hands.png');"></span>
+            </div>
+          </div>
+          <div class="infoBlock-content">
+            <h2>
+              Что такое <span>безопасная сделка?</span>
+            </h2>
+            <p>
+              Безопасная сделка – сервис защиты исполнителя и заказчика в интернете.
+            </p>
+            <p>
+              Безопасная сделка гарантирует 100% предоплату, которая хранится на счете гаранта nazva, пока исполнитель не выполнит все свои обязательства, а заказчик не получит услугу. Также безопасная сделка обеспечивает сохранность средств заказчика: если исполнитель нарушает условия сделки, гарант-сервис nazva возвращает средства или предлагает заказчику скидку.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="aboutSystem">
+      <div class="container">
+        <h2>
+          Как это работает?
+        </h2>
+        <div class="aboutSystem-control">
+          <div class="item">
+            <button type="button" class="">
+              Заказчик
+            </button>
+          </div>
+          <img src="./assets/images/diamond-mini.png" alt="">
+          <div class="item">
+            <button type="button" class="">
+              Исполнитель
+            </button>
+          </div>
+        </div>
+        <div class="aboutSystem-slider">
+          <div class="aboutSystem-slide">
+
+            <div class="aboutSystem-box-item">
+              <div class="icon">
+                <span class="img" style="background-image: url('./assets/images/edit.svg');"></span>
+              </div>
+              <h3 class="title">
+                Создайте сделку
+              </h3>
+              <p class="text">
+                Заполните все поля, логин исполнителя, условия сделки, цену, сроки.
+              </p>
+            </div>
+
+            <div class="aboutSystem-box-item">
+              <div class="icon">
+                <span class="img" style="background-image: url('./assets/images/timer.svg');"></span>
+              </div>
+              <h3 class="title">
+                Дождитесь исполнителя
+              </h3>
+              <p class="text">
+                Исполнитель должен перейти в пункт Мои Сделки, после чего перейти на страницу самой сделки и принять её.
+              </p>
+            </div>
+
+            <div class="aboutSystem-box-item">
+              <div class="icon">
+                <span class="img" style="background-image: url('./assets/images/returned.svg');"></span>
+              </div>
+              <h3 class="title">
+                Проведите сделку
+              </h3>
+              <p class="text">
+                Подробный процесс проведения сделки описан ниже.
+              </p>
+            </div>
+
+            <div class="aboutSystem-box-item">
+              <div class="icon">
+                <span class="img" style="background-image: url('./assets/images/dollar.svg');"></span>
+              </div>
+              <h3 class="title">
+                Подтвердите оплату
+              </h3>
+              <p class="text">
+                Если услуга соответствует заявленным характеристикам, после получения подтвердите платеж.
+              </p>
+            </div>
+
+          </div>
+          <div class="aboutSystem-slide">
+
+            <div class="aboutSystem-box-item">
+              <div class="icon">
+                <span class="img" style="background-image: url('./assets/images/edit.svg');"></span>
+              </div>
+              <h3 class="title">
+                Заказчик создает сделку
+              </h3>
+              <p class="text">
+                После создания новая сделка появится в разделе Мои сделки. Вы должны принять её.
+              </p>
+            </div>
+
+            <div class="aboutSystem-box-item">
+              <div class="icon">
+                <span class="img" style="background-image: url('./assets/images/timer.svg');"></span>
+              </div>
+              <h3 class="title">
+                Заказчик оплачивает сделку
+              </h3>
+              <p class="text">
+                Ни в коем случае не передавайте услугу, если нет сообщения об оплате сделки.
+              </p>
+            </div>
+
+            <div class="aboutSystem-box-item">
+              <div class="icon">
+                <span class="img" style="background-image: url('./assets/images/returned.svg');"></span>
+              </div>
+              <h3 class="title">
+                Проведите сделку
+              </h3>
+              <p class="text">
+                Подробный процесс проведения сделки описан ниже.
+              </p>
+            </div>
+
+            <div class="aboutSystem-box-item">
+              <div class="icon">
+                <span class="img" style="background-image: url('./assets/images/dollar.svg');"></span>
+              </div>
+              <h3 class="title">
+                Подтвердите оплату
+              </h3>
+              <p class="text">
+                После того как заказчик подтвердит платеж, средства поступят на ваш баланс.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="scheme">
+      <div class="container">
+        <div class="scheme-wrapper with-side">
+          <div class="scheme-side">
+            <h2>
+              Схема работы
+              <br>фриланс биржи
+            </h2>
+            <img src="./assets/images/scheme-bg.png" alt="">
+          </div>
+          <div class="scheme-steps">
+
+            <div class="scheme-steps-item">
+              <div class="hat">
+                <svg class="svg-user" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8 8C10.21 8 12 6.21 12 4C12 1.79 10.21 0 8 0C5.79 0 4 1.79 4 4C4 6.21 5.79 8 8 8ZM8 10C5.33 10 0 11.34 0 14V16H16V14C16 11.34 10.67 10 8 10Z"/>
+                </svg>
+                <h3 class="title">
+                  Регистрация
+                </h3>
+              </div>
+              <p class="text">
+                Услуги нашего сервиса безопасных сделок предоставляются только после того, как оба участника регистрируются на сайте.
+              </p>
+            </div>
+
+            <div class="scheme-steps-item">
+              <div class="hat">
+                <svg class="svg-comment" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M18 0H2C0.9 0 0 0.9 0 2V20L4 16H18C19.1 16 20 15.1 20 14V2C20 0.9 19.1 0 18 0Z"/>
+                </svg>
+                <h3 class="title">
+                  Обсуждение условий сделки
+                </h3>
+              </div>
+              <p class="text">
+                Участники обсуждают характеристики услуг и сумму оплаты, выбирают платежную систему. Также обсуждают дальнейшие действия в случае претензии по услуге.
+              </p>
+            </div>
+
+            <div class="scheme-steps-item">
+              <div class="hat">
+                <svg class="svg-document" width="16" height="20" viewBox="0 0 16 20" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4 14H12V16H4V14ZM4 10H12V12H4V10ZM10 0H2C0.9 0 0 0.9 0 2V18C0 19.1 0.89 20 1.99 20H14C15.1 20 16 19.1 16 18V6L10 0ZM14 18H2V2H9V7H14V18Z"/>
+                </svg>
+                <h3 class="title">
+                  Открытие сделки
+                </h3>
+              </div>
+              <p class="text">
+                Заказчик открывает сделку, исполнитель её принимает. Если на данном этапе что-то идёт не так (исполнитель пропал), то сделка отменяется, оплата возвращается заказчику. Для общения и передачи информации используется внутренний чат.
+              </p>
+            </div>
+
+            <div class="scheme-steps-item">
+              <div class="hat">
+                <svg class="svg-document-timer" width="18" height="21" viewBox="0 0 18 21" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13 11.0002C10.24 11.0002 8 13.2402 8 16.0002C8 18.7602 10.24 21.0002 13 21.0002C15.76 21.0002 18 18.7602 18 16.0002C18 13.2402 15.76 11.0002 13 11.0002ZM14.65 18.3502L12.5 16.2002V13.0002H13.5V15.7902L15.35 17.6402L14.65 18.3502ZM14 2.00024H10.82C10.4 0.840244 9.3 0.000244141 8 0.000244141C6.7 0.000244141 5.6 0.840244 5.18 2.00024H2C0.9 2.00024 0 2.90024 0 4.00024V19.0002C0 20.1002 0.9 21.0002 2 21.0002H8.11C7.52 20.4302 7.04 19.7502 6.69 19.0002H2V4.00024H4V7.00024H12V4.00024H14V9.08024C14.71 9.18024 15.38 9.39024 16 9.68024V4.00024C16 2.90024 15.1 2.00024 14 2.00024ZM8 4.00024C7.45 4.00024 7 3.55024 7 3.00024C7 2.45024 7.45 2.00024 8 2.00024C8.55 2.00024 9 2.45024 9 3.00024C9 3.55024 8.55 4.00024 8 4.00024Z"/>
+                </svg>
+                <h3 class="title">
+                  Исполнение обязательств
+                </h3>
+              </div>
+              <p class="text">
+                Заказчик вносит деньги на баланс сделки, средства сразу же блокируются. Исполнитель видит это и передаёт услугу, после чего заказчик переводит деньги с баланса на баланс исполнителя. Исполнитель может отказаться от сделки и вернуть деньги заказчику. Суть в том, что участники могут переводить деньги с баланса только на баланс друг друга, но не на свои. В случае спора участники могут обратиться к гаранту сделок (арбитраж).
+              </p>
+            </div>
+
+            <div class="scheme-steps-item">
+              <div class="hat">
+                <svg class="svg-steadying" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 1.41024L14.71 6.70024L18 10.0002H10V2.00024L13.29 5.29024L18.59 0.000244141L20 1.41024ZM1.41 20.0002L6.7 14.7102L10 18.0002V10.0002H2L5.29 13.2902L0 18.5902L1.41 20.0002Z"/>
+                </svg>
+                <h3 class="title">
+                  Закрытие сделки
+                </h3>
+              </div>
+              <p class="text">
+                Если на балансе сделки нет денег, то заказчик её закрывает. Сделка через гаранта завершена.
+                <br><br>До сих пор есть вопросы?
+                <a href="#">Задайте их в нашем чате поддержки <img src="./assets/images/arrow-blue.svg" alt=""></a>
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <div class="reviews-swiper">
+
+        <div class="reviews-swiper-arrows">
+          <div class="container">
+            <div class="swiper-arrow prev">
+              <img src="./assets/images/arrow-swiper-left.svg" alt="">
+            </div>
+            <div class="swiper-arrow next">
+              <img src="./assets/images/arrow-swiper-right.svg" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide reviews-item">
+              <div class="container">
+                <div class="reviews-item-inner">
+                  <div class="reviews-item-side">
+                    <div class="img-wrapper">
+                      <span class="img" style="background-image: url('./assets/images/reviews-01.png');"></span>
+                    </div>
+                  </div>
+                  <div class="reviews-item-data">
+                    <p class="author-info text-small">
+                      Антон, фрилансер, г. Москва
+                    </p>
+                    <p class="text">
+                      "Одним из больших преимуществ данного сайта для меня было обеспечение безопасности сделки, т.е. заказчик НЕ сможет не заплатить Вам за выполненную качественно и в срок работу."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide reviews-item">
+              <div class="container">
+                <div class="reviews-item-inner">
+                  <div class="reviews-item-side">
+                    <div class="img-wrapper">
+                      <span class="img" style="background-image: url('./assets/images/reviews-02.png');"></span>
+                    </div>
+                  </div>
+                  <div class="reviews-item-data">
+                    <p class="author-info text-small">
+                      Антон, фрилансер, г. Москва
+                    </p>
+                    <p class="text">
+                      "Одним из больших преимуществ данного сайта для меня было обеспечение безопасности сделки, т.е. заказчик НЕ сможет не заплатить Вам за выполненную качественно и в срок работу."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide reviews-item">
+              <div class="container">
+                <div class="reviews-item-inner">
+                  <div class="reviews-item-side">
+                    <div class="img-wrapper">
+                      <span class="img" style="background-image: url('./assets/images/reviews-03.png');"></span>
+                    </div>
+                  </div>
+                  <div class="reviews-item-data">
+                    <p class="author-info text-small">
+                      Антон, фрилансер, г. Москва
+                    </p>
+                    <p class="text">
+                      "Одним из больших преимуществ данного сайта для меня было обеспечение безопасности сделки, т.е. заказчик НЕ сможет не заплатить Вам за выполненную качественно и в срок работу."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide reviews-item">
+              <div class="container">
+                <div class="reviews-item-inner">
+                  <div class="reviews-item-side">
+                    <div class="img-wrapper">
+                      <span class="img" style="background-image: url('./assets/images/reviews-04.png');"></span>
+                    </div>
+                  </div>
+                  <div class="reviews-item-data">
+                    <p class="author-info text-small">
+                      Антон, фрилансер, г. Москва
+                    </p>
+                    <p class="text">
+                      "Одним из больших преимуществ данного сайта для меня было обеспечение безопасности сделки, т.е. заказчик НЕ сможет не заплатить Вам за выполненную качественно и в срок работу."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide reviews-item">
+              <div class="container">
+                <div class="reviews-item-inner">
+                  <div class="reviews-item-side">
+                    <div class="img-wrapper">
+                      <span class="img" style="background-image: url('./assets/images/reviews-05.png');"></span>
+                    </div>
+                  </div>
+                  <div class="reviews-item-data">
+                    <p class="author-info text-small">
+                      Антон, фрилансер, г. Москва
+                    </p>
+                    <p class="text">
+                      "Одним из больших преимуществ данного сайта для меня было обеспечение безопасности сделки, т.е. заказчик НЕ сможет не заплатить Вам за выполненную качественно и в срок работу."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide reviews-item">
+              <div class="container">
+                <div class="reviews-item-inner">
+                  <div class="reviews-item-side">
+                    <div class="img-wrapper">
+                      <span class="img" style="background-image: url('./assets/images/reviews-06.png');"></span>
+                    </div>
+                  </div>
+                  <div class="reviews-item-data">
+                    <p class="author-info text-small">
+                      Антон, фрилансер, г. Москва
+                    </p>
+                    <p class="text">
+                      "Одним из больших преимуществ данного сайта для меня было обеспечение безопасности сделки, т.е. заказчик НЕ сможет не заплатить Вам за выполненную качественно и в срок работу."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide reviews-item">
+              <div class="container">
+                <div class="reviews-item-inner">
+                  <div class="reviews-item-side">
+                    <div class="img-wrapper">
+                      <span class="img" style="background-image: url('./assets/images/reviews-07.png');"></span>
+                    </div>
+                  </div>
+                  <div class="reviews-item-data">
+                    <p class="author-info text-small">
+                      Антон, фрилансер, г. Москва
+                    </p>
+                    <p class="text">
+                      "Одним из больших преимуществ данного сайта для меня было обеспечение безопасности сделки, т.е. заказчик НЕ сможет не заплатить Вам за выполненную качественно и в срок работу."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide reviews-item">
+              <div class="container">
+                <div class="reviews-item-inner">
+                  <div class="reviews-item-side">
+                    <div class="img-wrapper">
+                      <span class="img" style="background-image: url('./assets/images/reviews-08.png');"></span>
+                    </div>
+                  </div>
+                  <div class="reviews-item-data">
+                    <p class="author-info text-small">
+                      Антон, фрилансер, г. Москва
+                    </p>
+                    <p class="text">
+                      "Одним из больших преимуществ данного сайта для меня было обеспечение безопасности сделки, т.е. заказчик НЕ сможет не заплатить Вам за выполненную качественно и в срок работу."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide reviews-item">
+              <div class="container">
+                <div class="reviews-item-inner">
+                  <div class="reviews-item-side">
+                    <div class="img-wrapper">
+                      <span class="img" style="background-image: url('./assets/images/reviews-09.png');"></span>
+                    </div>
+                  </div>
+                  <div class="reviews-item-data">
+                    <p class="author-info text-small">
+                      Антон, фрилансер, г. Москва
+                    </p>
+                    <p class="text">
+                      "Одним из больших преимуществ данного сайта для меня было обеспечение безопасности сделки, т.е. заказчик НЕ сможет не заплатить Вам за выполненную качественно и в срок работу."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="facts">
+      <div class="container">
+        <h2>
+          Почему Nazva можно доверять?
+        </h2>
+        <div class="facts-wrapper">
+
+          <div class="facts-item">
+            <div class="facts-item-image">
+              <div class="img-wrapper">
+                <span class="img" style="background-image: url('./assets/images/facts-01.png');"></span>
+              </div>
+            </div>
+            <div class="facts-item-content">
+              <h3 class="facts-item-title">
+                Надежность
+              </h3>
+              <ul class="facts-item-list">
+                <li>
+                  Персональный аттестат Webmoney выдан в 2009 году.
+                </li>
+                <li>
+                  Больше двух лет на рынке цифровых и материальных товаров в сфере безопасной сделки.
+                </li>
+                <li>
+                  Система вычисления вероятности того, что партнер по сделке - мошенник.
+                </li>
+                <li>
+                  Актуальный черный список с автоматической проверкой всех пользователей.
+                </li>
+                <li>
+                  Финансовые транзакции проходят через счёт в государственном банке.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="facts-item">
+            <div class="facts-item-image">
+              <div class="img-wrapper">
+                <span class="img" style="background-image: url('./assets/images/facts-02.png');"></span>
+              </div>
+            </div>
+            <div class="facts-item-content">
+              <h3 class="facts-item-title">
+                Конфиденциальность
+              </h3>
+              <ul class="facts-item-list">
+                <li>
+                  Сделка проходит на закрытой странице, доступ к которой есть только у участников сделки и модератора сервиса.
+                </li>
+                <li>
+                  Запрет публикации данных для идентификации продаваемого товара/услуги.
+                </li>
+                <li>
+                  Простое урегулирование спорных ситуаций между продавцом и покупателем.
+                </li>
+                <li>
+                  Возможность проводить защищенные платежи между физическими лицами.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="facts-item">
+            <div class="facts-item-image">
+              <div class="img-wrapper">
+                <span class="img" style="background-image: url('./assets/images/facts-03.png');"></span>
+              </div>
+            </div>
+            <div class="facts-item-content">
+              <h3 class="facts-item-title">
+                Удобство
+              </h3>
+              <ul class="facts-item-list">
+                <li>
+                  Автоматизированное проведение сделки без участия реального поссредника.
+                </li>
+                <li>
+                  Круглосуточная работа сервиса - сервис доступен к использованию в любое время суток.
+                </li>
+                <li>
+                  Защита сделок купли-продажи 24/7 без похода к юристу и в банк.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        <button type="button" class="button" data-open_popup="signUp">
+          Создать аккаунт
+        </button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <a class="footer-logo" href="./index.html">
+          <img src="./assets/images/logo-footer.svg" alt="">
+        </a>
+        <nav class="footer-navigation">
+          <ul>
+            <li><a href="./account-deals.html">Аккаунт</a></li>
+            <li><a href="./page-howitwork.html">Как это работает</a></li>
+            <li><a href="./page-forwhom.html">Для кого</a></li>
+            <li><a href="./page-certificates.html">Сертификаты</a></li>
+            <li><a href="./page-reviews.html">Отзывы</a></li>
+            <li><a href="./page-clients.html">Наши клиенты</a></li>
+          </ul>
+        </nav>
+        <div class="footer-paymentMethods">
+          <div class="item">
+            <img src="./assets/images/webmoney-white.svg" alt="">
+          </div>
+          <div class="item">
+            <img src="./assets/images/pci-dss-white.svg" alt="">
+          </div>
+          <div class="item">
+            <img src="./assets/images/ssl-white.svg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="text-small">©2020-2022 Гарант сервис</p>
+        <a href="./page-agreement.html" class="text-small">Пользовательское соглашение</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="popup" id="loginIn">
+    <div class="popup-wrapper">
+      <div class="popup-bg popup-close"></div>
+      <div class="popup-inner">
+        <div class="login-hat">
+          <p class="login-title">Войти</p>
+          <span class="popup-x popup-close">
+            <span class="img" style="background-image: url('./assets/images/x-gray.svg');"></span>
+          </span>
+        </div>
+        <form action="#" method="post" class="loginIn-form accountForm">
+          <label class="label error">
+            <span class="label-wrapper">
+              <input type="text" placeholder="Логин">
+            </span>
+            <span class="label-error">
+              Неверный логин
+            </span>
+          </label>
+          <label class="label">
+            <span class="label-wrapper">
+              <input type="password" placeholder="Пароль">
+              <span class="input-control">
+                <span class="hide"><img src="./assets/images/eye-hide.svg" alt=""></span>
+                <span class="default"><img src="./assets/images/eye.svg" alt=""></span>
+              </span>
+            </span>
+            <span class="label-error">
+              Неправильный пароль
+            </span>
+          </label>
+          <button type="button" class="button">
+            вОЙТИ
+          </button>
+          <div class="accountForm-bottom">
+            <p>Нет учетной записи?</p>
+            <a href="#" data-open_popup="signUp">Зарегистрировать</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="popup" id="signUp">
+    <div class="popup-wrapper">
+      <div class="popup-bg popup-close"></div>
+      <div class="popup-inner">
+        <div class="login-hat">
+          <p class="login-title">Регистрация</p>
+          <span class="popup-x popup-close">
+            <span class="img" style="background-image: url('./assets/images/x-gray.svg');"></span>
+          </span>
+        </div>
+        <form action="#" method="post" class="signUp-form accountForm">
+          <label class="label">
+            <span class="label-wrapper">
+              <input type="text" placeholder="Логин">
+            </span>
+            <span class="label-error">
+              Имеются ошибки в поле
+            </span>
+          </label>
+          <label class="label">
+            <span class="label-wrapper">
+              <input type="email" placeholder="Email">
+            </span>
+            <span class="label-error">
+              Имеются ошибки в поле
+            </span>
+          </label>
+          <label class="label">
+            <span class="label-wrapper">
+              <input type="password" placeholder="Пароль">
+              <span class="input-control">
+                <span class="hide"><img src="./assets/images/eye-hide.svg" alt=""></span>
+                <span class="default"><img src="./assets/images/eye.svg" alt=""></span>
+              </span>
+            </span>
+            <span class="label-error">
+              Пароль слишком прост
+            </span>
+          </label>
+          <label class="label">
+            <span class="label-wrapper">
+              <input type="password" placeholder="Подтвердите пароль">
+              <span class="input-control">
+                <span class="hide"><img src="./assets/images/eye-hide.svg" alt=""></span>
+                <span class="default"><img src="./assets/images/eye.svg" alt=""></span>
+              </span>
+            </span>
+            <span class="label-error">
+              Пароли не совпадают
+            </span>
+          </label>
+          <button type="button" class="button" data-open_popup="signUp">
+            Создать аккаунт
+          </button>
+          <label class="label-check-mark">
+            <input type="checkbox" name="confirm" checked>
+            <span class="check-mark">
+              <span class="img" style="background-image: url('./assets/images/check-mark.svg');"></span>
+            </span>
+            <span>Я ознакомлен c "<a href="./page-agreement.html">Пользовательским соглашением</a>"</span>
+          </label>
+          <div class="accountForm-bottom">
+            <p>Уже есть аккаунт?</p>
+            <a href="#" data-open_popup="loginIn">Войти</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="./assets/js/jquery-3.6.1.min.js"></script>
+  <script src="./assets/swiper/swiper-bundle.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
